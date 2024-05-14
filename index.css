@@ -1,0 +1,89 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.maincon{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./mainback.jpg); 
+    z-index: 1;
+     filter: blur(8px);
+    -webkit-filter: blur(8px);
+   
+    
+}
+.imgcon{
+    width: 95%;
+    background-image: url(./back.jpg);
+    background-size:100% 100%;
+    
+
+}
+.submaincon{
+    border:2px solid;
+    display: flex;
+    width: 70%;
+    height: 80%;
+    z-index: 2;
+    position: absolute;
+    transform: translate(30%,-110%);
+}
+.reg{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.inp{
+    border-radius: 5px;
+    height: 25px;
+    width: 90%;
+    border: 2px solid black;
+}
+.fill{
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
+    background-image: url(./white.jpg);
+    background-size: 100% 100%;
+}
+.name{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: bolder;
+}
+label{
+    margin-right: 20%;
+    font-size: larger;
+}
+.subbutton{
+    margin-top: 5%;
+    height: 50px;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgb(179, 179, 224);
+    cursor: pointer;
+    
+}
+.logincon{
+    margin-top: 5%;
+}
+.login{
+    color:blue;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+
+}
+.login:hover{
+   cursor: pointer;
+   text-decoration: underline;
+   font-size: 20px;
+   color: yellow;
+   
+}
